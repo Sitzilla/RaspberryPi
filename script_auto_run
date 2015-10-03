@@ -1,0 +1,7 @@
+#!/bin/bash
+# Script to make all GPIO pins set to LOW
+
+
+echo "Setting pin defaults... "
+
+sudo python /home/pi/bin/set_GPIO_pins_defaults.py
